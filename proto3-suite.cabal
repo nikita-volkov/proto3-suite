@@ -49,7 +49,7 @@ library
     exposed-modules:   Proto3.Suite.DotProto.Generate.Swagger
                        Proto3.Suite.DotProto.Generate.Swagger.Wrappers
     other-modules:     Proto3.Suite.DotProto.Generate.Swagger.OverrideToSchema
-    build-depends:     swagger2 >=2.1.6 && <2.8
+    build-depends:     swagger2 >=2.1.6 && <2.9
     cpp-options:       -DSWAGGER
     if flag(swagger-wrapper-format)
       hs-source-dirs:  src/swagger-wrapper-format
